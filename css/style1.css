@@ -1,0 +1,30 @@
+.parent{ display : flex ;
+		 flex-direction : row
+		 flex-wrap : wrap;
+		 justify-content : center; }
+.child{
+	width : 30%;
+	border : 1px solid #000;
+	text-align : center;
+}
+
+.profile{ 
+			width : 50px;
+}
+
+.contact{
+			display : block;
+}
+
+.role {
+	
+		font-style : italic ;
+}
+
+@media only screen and (min-width : 320px) and (max-width :480px){
+.child{
+	width : 90%;
+	border : 1px solid #000;
+	text-align : center;
+}
+}
